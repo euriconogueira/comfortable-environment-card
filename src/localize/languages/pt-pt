@@ -1,0 +1,37 @@
+{
+  "common": {
+    "version": "Versão",
+    "description": "Um cartão para mostrar informações sobre a sensação térmica e o índice de Desconforto de Thom com base na temperatura e humidade de um local",
+    "invalid_configuration": "A configuração do Comfortable Environment Card é inválida ou não existe!",
+    "temperature": "Temperatura",
+    "humidity": "Humidade",
+    "hi": "Sensação Térmica",
+    "di": "Índice de Desconforto"
+  },
+  "configurator": {
+      "room_name": "Área/Divisão",
+      "temp_sensor": "Sensor de temperatura",
+      "hum_sensor": "Sensor de humidade",
+      "show_index": "Selecione o índice a exibir"
+  },
+  "states": {
+    "hi": {
+      "0": "Bom",
+      "1": "Atenção",
+      "2": "Máxima prudência",
+      "3": "Perigo",
+      "4": "Perigo extremo"
+    },
+    "di" : {
+      "0": "Desconforto extremo",
+      "1": "Desconforto moderado",
+      "2": "Conforto suficiente",
+      "3": "Bem-estar",
+      "4": "Menos de 50% da população sente um leve desconforto",
+      "5": "Mais de 50% da população sente desconforto crescente",
+      "6": "A maioria da população sente desconforto",
+      "7": "A totalidade da população sente desconforto",
+      "8": "Estado de urgência médica"
+    }
+  }
+}
